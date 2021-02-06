@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">simpleapp</string>
+    <string name="msg_default_wait">Please Wait....</string>
+    <string name="msg_no_internet_connectivity">No internet connection</string>
+    <string name="exception_not_found">Something went wrong</string>
+    <string name="unkonw_host_exception">Sorry! Unable to connect to the server</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_lb_login">Sign In</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="lbl_email_id">Email Id</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_internet">No Internet</string>
+    <string name="slow_network">Your internet is slow</string>
+    <string name="default_error">Something wents wrong</string>
+</resources>
