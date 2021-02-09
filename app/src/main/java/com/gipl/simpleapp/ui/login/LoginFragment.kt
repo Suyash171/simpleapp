@@ -47,6 +47,7 @@ class LoginFragment : Fragment() {
             Response.STATUS.SUCCESS -> {
                // hideLoading()
                 Navigation.findNavController(btn_login).navigate(R.id.action_loginfragment_to_home)
+
             }
             Response.STATUS.FAILED -> {
                // hideLoading()
@@ -76,6 +77,7 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
 
         btn_login.setOnClickListener {
             til_email_id.error = null
